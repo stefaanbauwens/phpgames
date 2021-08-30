@@ -1,0 +1,133 @@
+
+body {
+  background-color: rgb(204,255,255);
+}
+
+form {
+  margin: 0;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+th {
+  padding-top: 5px;
+  text-decoration: underline;
+}
+
+div.spelBord {
+  text-align: center;
+}
+
+div.spelBord table {
+  margin: 0 auto; 
+  text-align: left;
+}
+
+.bodySpel {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgb(153,204,255);
+  border: 1px solid black;
+  padding: 10px;
+  left: 50%;
+  top: 50%;
+}
+
+.menuGap {
+  width: 20px;
+}
+
+.bordTable {
+  border-spacing: 0px;
+  background-color: rgb(170,170,170);
+  border: 1px solid black;
+}
+
+.tableHeader {
+  border-bottom: 1px solid black;
+  background-color: rgb(204,255,255);
+  text-align: center;
+  padding: 0;
+}
+  
+.tableStatus {
+  background-color: rgb(170,170,170);
+  text-align: center;
+  padding: 0;
+}
+
+.tableVak {
+  background-color: rgb(170,170,170);
+}
+
+.statusImg {
+  border: none;
+}
+
+.vakGrid {
+  border-spacing: 0px;
+  padding: 2px;
+}
+
+.gridHoek {
+  width: 0px;
+  height: 0px;
+  border: none;
+  border-left: 1px solid black;
+  padding: 0;
+}
+  
+.gridMijnenveger {
+  width: 14px;
+}
+
+.gridKolom {
+  height: 0px;
+  border: none;
+  border-top: 1px solid black;
+  padding: 0;
+}
+  
+.gridRij {
+  width: 0px;
+  height: 14px;
+  border: none;
+  border-left: 1px solid black;
+  padding: 0;
+}
+
+.gridCell {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+.cellHelft {
+  width: 7px;
+}
+
+.cellMemory {
+  width: 70px;
+  height: 70px;
+  border: none;
+}
+
+.inputBack {
+  text-align: center;
+}
+
+.inputVeld {
+  width: 70px;
+}
+
+.inputNieuw {
+  padding-top: 5px;
+  text-align: center;
+}
